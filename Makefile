@@ -7,4 +7,5 @@ MD5_lib.o : MD5_lib.c MD5_lib.h
 	$(CC)  -c  MD5_lib.c  -I.
 MD5.o : MD5.c MD5.h
 	$(CC)  -c MD5.c -I.  
-
+clean:
+	rm demo *.o
